@@ -83,69 +83,23 @@
     width: 35%;
     line-height: 80px;
     color: #e2a355;
-    /* margin-left: 80px; */
 }
 .sec-one-contents h4 {
     padding: 10px 0 50px 0;
     font-size: 20px;
-    /* margin-left: 80px; */
 }
 .sec-one-contents button {
     padding: 5px 0;
-    /* width: 30%; */
     width: 10%;
     border-radius: 30px;
     border: none;
     font-size: 15px;
-    /* margin-left: 80px; */
 }
 .sec-one-contents p {
-    /* width: 80%; */
     width: 30%;
     text-align: justify;
     padding: 20px 0;
-    /* margin-left: 80px; */
 }
-/* @media(min-width:576px){
-    .container{
-        width: 1150px;
-    }
-    .col-40{
-        width: 40%;
-    }
-    }
-@media(min-width:768px){
-    .container{
-        width: 720px;
-    }
-    .col-40{
-        width: 60%;
-    }
-    }
-@media(min-width:992px){
-    .container{
-        width: 920px;
-    }
-    .col-40{
-        width: 40%;
-    }
-    }
-@media(min-width:1200px){
-.container{
-    width: 1150px;
-}
-.col-40{
-    width: 40%;
-}
-}
-@media(min-width:1400px){
-    .container{
-        width: 1300px;
-    }
-    .col-40{
-        width: 40%;
-    }
-    } */
 /* --------------------------------------------------------------------------section-two starts------------------------------------------------- */
 .head h2 {
     text-align: center;
@@ -202,7 +156,6 @@
     width: 45%;
 }
 .shadow {
-    /* bottom: 0; */
     left: -80px;
 }
 .sado {
