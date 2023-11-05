@@ -109,7 +109,7 @@ header{
 }
 .home-sec{
     color: white;
-    /* overflow:  hidden; */
+    overflow:  hidden; 
 }
 .home-sec-contents h1 {
     font-size: 80px;
@@ -292,7 +292,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* overflow: hidden; */
+    overflow: hidden; 
 }
 .sec-six-main{
     padding: 50px 0;
@@ -375,7 +375,7 @@ header{
 /* --------------------------------------------------------------------------section-eight starts--------------------------------------------- */
 .sec-eight{
     background-color: #27292c;
-    /* overflow: hidden; */
+    overflow: hidden; 
 }
 .sec-eight-main {
     padding: 60px 0;
