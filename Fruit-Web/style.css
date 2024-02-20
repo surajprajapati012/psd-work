@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar img {
+    width: 90px;
+}
+
+.navbar {
+    font-size: 18px;
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.nav-link {
+    color: aliceblue;
+    margin: 0 12px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: aquamarine;
+}
+
+.head-right {
+    margin-right: 1.5rem;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    color: aliceblue;
+}
+
+span {
+    color: rgb(99, 249, 99);
+}
+
+h6 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.header-scrolled {
+    position: fixed;
+    top: 0.3rem;
+    left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+@media(min-width:376px) {
+    .navbar {
+        background-size: cover;
+    }
+
+    .head-right {
+        margin-left: 0.8rem;
+        font-size: 17px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:576px) {
+    .navbar {
+        background-size: cover;
+    }
+
+    .head-right {
+        margin-left: 0.8rem;
+        font-size: 17px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+}
+
+@media(min-width:768px) {
+    .navbar {
+        background-size: cover;
+    }
+
+    .head-right {
+        margin-left: 0.8rem;
+        font-size: 19px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:992px) {
+    .navbar {
+        background-size: contain;
+        padding: 0.4rem;
+    }
+
+    .head-right {
+        margin-left: 0.8rem;
+        font-size: 19px;
+    }
+
+    .navbar img {
+        width: 70px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1200px) {
+    .navbar {
+        background-size: contain;
+        padding: 0.7rem;
+    }
+
+    .head-right {
+        margin-left: 0.8rem;
+        font-size: 20px;
+    }
+
+    .navbar img {
+        width: 90px;
+    }
+
+    h6 {
+        font-size: 19px;
+    }
+}
+
+@media(min-width:1400px) {
+    .navbar {
+        background-size: contain;
+        padding: 1rem;
+    }
+
+    .head-right {
+        font-size: 22px;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    h6 {
+        font-size: 22px;
+    }
+}
+
+
+.sec-one {
+    background-image: url(./images/banner-slide/Banner-1.jpg);
+    padding: 7.9rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item {
+    padding: 15rem 0;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+    color: black;
+    margin: 1.5rem 0;
+}
+
+.banner-content h3 {
+    padding: 0 8px;
+    background-color: rgb(39, 38, 38);
+    width: 34%;
+    color: aliceblue;
+}
+
+.banner-content p {
+    font-size: 20px;
+    width: 43%;
+    color: black;
+    margin: 1.5rem 0;
+}
+
+.carousel-caption {
+    top: 25%;
+    left: 3%;
+    text-align: left;
+}
+
+.main-btn {
+    padding: 7px 32px;
+    border-radius: 40px;
+    background-color: rgb(23, 124, 3);
+    border-color: rgb(43, 245, 3);
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.main-btn:hover {
+    background-color: white;
+    color: black;
+    border-color: rgb(48, 230, 12);
+}
+
+@media (min-width : 376px) {
+    .sec-one {
+        padding: 5rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 45px;
+    }
+
+    .banner-content h3 {
+        display: inline;
+        font-size: 18px;
+
+    }
+
+    .banner-content p {
+        font-size: 13px;
+        width: 70%;
+
+    }
+}
+
+@media (min-width : 576px) {
+    .sec-one {
+        padding: 7rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 47px;
+    }
+
+    .banner-content h3 {
+        font-size: 18px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+@media (min-width : 768px) {
+    .sec-one {
+        padding: 7rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 55px;
+    }
+
+    .banner-content h3 {
+        font-size: 20px;
+    }
+
+    .banner-content p {
+        font-size: 17px;
+        width: 70%;
+    }
+}
+
+@media (min-width : 992px) {
+    .sec-one {
+        padding: 7rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 60px;
+    }
+
+    .banner-content h3 {
+        font-size: 24px;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+        width: 58%;
+    }
+}
+
+@media (min-width : 1200px) {
+    .sec-one {
+        padding: 7rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 70px;
+    }
+
+    .banner-content h3 {
+        font-size: 28px;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+        width: 50%;
+    }
+}
+
+@media (min-width : 1400px) {
+    .sec-one {
+        padding: 7rem 0;
+    }
+
+    .banner-content h1 {
+        font-size: 70px;
+    }
+
+    .banner-content h3 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 21px;
+        width: 43%;
+    }
+}
+
+/* ---------------------------------------------------------sec-two--------------------------------------------- */
+
+.sec-two {
+    padding: 3rem 0;
+}
+
+.feature-icon img {
+    width: 2.8rem;
+}
+
+.features-box {
+    border: 0.15rem solid rgb(230, 240, 240);
+    transition: all 0.5s;
+    padding: 3.5rem 0 6rem 0;
+}
+
+.featue-icon-border {
+    border: 0.2rem solid rgb(237, 237, 237);
+    border-radius: 50%;
+    padding: 0.6rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.feature-icon {
+    background-color: rgb(229, 248, 233);
+    border-radius: 50%;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.feature-text h3 {
+    margin-top: 2.8rem;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transition: all 0.5s;
+}
+
+.features-box:hover {
+    background-color: black;
+    border-color: rgb(193, 243, 180);
+}
+
+.features-box:hover h3 {
+    color: white;
+}
+
+.features-box:hover .featue-icon-border {
+    border-color: rgb(151, 248, 127);
+}
+
+.features-box:hover .feature-icon {
+    background-color: rgb(205, 241, 205);
+}
+
+/* ---------------------------------------------------------sec-three--------------------------------------------- */
+
+.sec-three {
+    padding: 7rem 0;
+    background-image: url(./images/about/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.details p {
+    margin: 2rem 0;
+    font-size: 18px;
+    color: rgb(155, 210, 107);
+}
+
+/* ---------------------------------------------------------sec-four--------------------------------------------- */
+.sec-four {
+    padding: 4rem 0;
+}
+
+.title h3 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-card {
+    overflow: hidden;
+    border: 0.2rem solid rgb(220, 247, 220);
+    padding: 1rem;
+    margin: 1.3rem 0;
+}
+
+.product-img {
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.product-detail h4 {
+    font-weight: 800;
+}
+
+.clr {
+    font-size: 18px;
+    color: rgb(11, 173, 11);
+    font-weight: 600;
+}
+
+.product-btn {
+    position: absolute;
+    bottom: -8rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    background-color: rgb(50, 49, 49);
+    transition: 0.7s;
+}
+
+.product-card:hover .product-btn {
+    bottom: 0;
+}
+
+/* ---------------------------------------------------------sec-five--------------------------------------------- */
+.sec-five .carousel-item {
+    padding: 0;
+}
+
+.sec-five {
+    background-color: rgb(176, 238, 182);
+    padding: 4rem 0;
+}
+
+.carousel-indicators {
+    bottom: -4rem;
+}
+
+#carouselExampleIndicators .buttons {
+    background-color: black;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+
+.sec-five .card {
+    background-image: url(./images/testimonial/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 1rem 3rem;
+    border-radius: 0px 0.5rem 0.5rem 0;
+    border: 1px solid rgb(17, 240, 17);
+}
+
+.profile-box {
+    background-color: black;
+    padding: 1.5rem;
+}
+
+.profile-box img {
+    border-radius: 0.6rem 3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.disc-box p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.disc-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* ---------------------------------------------------------sec-six--------------------------------------------- */
+.sec-six {
+    padding: 4rem 0;
+}
+
+.sec-six .size , .gallary-sec .size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------------footer--------------------------------------------- */
+
+.footer {
+    background-image: url(./images/footer-bg/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 15rem;
+}
+
+.footer h5 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.footer ul li {
+    margin: 1rem 0;
+    font-size: 17px;
+}
+.info a:hover{
+    color:rgb(7, 220, 7);
+}
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer li i {
+    margin-right: 0.5rem;
+}
+
+.social-icon a {
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.2rem 0.2rem 0.3rem 0.6rem;
+}
+
+.social-icon a:hover {
+    color: rgb(252, 40, 2);
+    background-color: rgb(59, 227, 8);
+}
+
+.link-widget li {
+    transition: all 0.4s;
+}
+
+.link-widget li:hover {
+    margin-left: 0.6rem;
+    color: aquamarine;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.social-icon {
+    display: flex;
+
+}
+
+
+/* -----------------------------------about page ----------------------------- */
+
+.banner-sec {
+    background-image: url(./images/banner-slide/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+.banner-text h1{
+    font-size: 5rem;
+    margin: 5rem 0;
+}
+.about-content p{
+    color: rgb(23, 52, 97);
+}
+.padding{
+    padding: 3rem 0;
+}
+
+/* -----------------------------------contact page ----------------------------- */
+
+.clearfix a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.contact-form{
+    background-color: rgb(183, 247, 188);
+    padding: 5rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(97, 95, 95);
+}
+.content-box li{
+    position: relative;
+    padding-left: 7rem;
+    padding-bottom: 3.5rem;
+    margin-bottom: 3rem;
+}
+.content-box li i{
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    font-size: 4rem;
+    color: rgb(16, 75, 56);
+}
+.content-box p{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
